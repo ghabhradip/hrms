@@ -8,6 +8,7 @@ ruby '2.5.1'
 
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap-datepicker-rails'
+gem 'bootstrap_sb_admin_base_v1'
 gem 'bootstrap-sass'
 gem 'coffee-rails', '~> 4.2'
 gem 'devise'
@@ -32,6 +33,7 @@ gem 'sidekiq'
 gem 'sinatra', require: false
 gem 'slim'
 gem 'tod'
+gem 'trestle'
 gem 'turbolinks', '~> 5'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'uglifier', '>= 1.3.0'

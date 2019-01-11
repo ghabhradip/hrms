@@ -16,3 +16,10 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 {
     margin-top: 240px;
 }
+.drop-up{
+    margin-top: -646px;
+    margin-left: 653px;
+}
+.big-btn{
+    width: 230px;
+}
