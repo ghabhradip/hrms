@@ -23,3 +23,34 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 .big-btn{
     width: 230px;
 }
+a {
+    text-decoration: none;
+}
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: 200;
+}
+.jumbotron {
+    border-radius: 0px;
+    border-top: 3px solid #007bff;
+    padding: 1rem 2rem;
+}
+.middle
+{
+    margin: 44px;
+}
+.inner-heading
+{
+    color: #037bff;
+}
+.message-flex
+{
+    text-align: center;
+    background-color: #ffeeba;
+    color: #856404;
+    border-radius: 8px;
+    font-size: medium;
+    height: 55px;
+    padding: 15px;
+}
