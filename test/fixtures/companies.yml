@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  address: MyText
+  established_on: 2019-01-15
+  employee_strength: 1
+  owner_one: MyString
+  owner_two: MyString
+  owner_3: MyString
+  owner_four: MyString
+
+two:
+  name: MyString
+  address: MyText
+  established_on: 2019-01-15
+  employee_strength: 1
+  owner_one: MyString
+  owner_two: MyString
+  owner_3: MyString
+  owner_four: MyString

@@ -6,4 +6,28 @@
   </p>
 </div>
 
-<div class="d-flex p-2 middle message-flex">No employees have been added yet. <a>Click here</a> to upload.</div>
+
+
+<div class="middle">
+  <%= form_tag do %>
+    <input type="file">
+  <%end%>
+</div>
+
+
+<div class="middle">
+<div class="d-flex flex-column">
+  <div class="p-2 table-flex">Flex item 1</div>
+  <div class="p-2 table-flex">Flex item 2</div>
+  <div class="p-2 table-flex-last">Flex item 3</div>
+</div>
+</div>
+
+<script>
+  const inputElement = document.querySelector('input[type="file"]');
+  const pond = FilePond.create( inputElement );
+
+  FilePond.setOptions({
+    server: 'http://localhost:3000/employees'
+  });
+</script>

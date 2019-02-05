@@ -7,8 +7,8 @@ Rails.application.routes.draw do
     end
   end
 
-  resources :employees
-
+  resources :employees 
+  
   devise_for :users, :controllers => { registrations: 'registrations', sessions: 'sessions'}
 
   devise_scope :user do

@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  address: MyText
+  primary_contact_number: MyString
+  secondary_contact_number: MyString
+  joining_date: 2019-01-15
+  designation: MyString
+  office_location: MyString
+  active: false
+  suspended: false
+  onleave: false
+
+two:
+  name: MyString
+  address: MyText
+  primary_contact_number: MyString
+  secondary_contact_number: MyString
+  joining_date: 2019-01-15
+  designation: MyString
+  office_location: MyString
+  active: false
+  suspended: false
+  onleave: false

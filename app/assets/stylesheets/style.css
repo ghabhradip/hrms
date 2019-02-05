@@ -43,6 +43,7 @@ a {
 .inner-heading
 {
     color: #037bff;
+    font-weight: 600;
 }
 .message-flex
 {
@@ -53,4 +54,21 @@ a {
     font-size: medium;
     height: 55px;
     padding: 15px;
+}
+.table-flex
+{
+    height: 70px;
+    padding: 26px;
+    border-top: 1px solid #cececa;
+    border-right: 1px solid #cececa; 
+    border-left: 1px solid #cececa;
+}
+.table-flex-last
+{
+    height: 70px;
+    padding: 26px;
+    border-bottom: 1px solid #cececa;
+    border-top: 1px solid #cececa;
+    border-right:  1px solid #cececa; 
+    border-left: 1px solid #cececa;
 }

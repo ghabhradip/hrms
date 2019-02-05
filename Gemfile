@@ -32,6 +32,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'sidekiq'
 gem 'sinatra', require: false
 gem 'slim'
+gem 'spreadsheet'
 gem 'tod'
 gem 'trestle'
 gem 'turbolinks', '~> 5'
